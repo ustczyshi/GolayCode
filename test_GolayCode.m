@@ -29,3 +29,12 @@ legend('A码','B码','A+B');
 title([num2str(N) '阶GolayCode自相关及其自相关之和']);
 xlabel('Time/s');
 ylabel('幅度');
+%% 
+% G1 = [Golay_2A,Golay_2B];
+% R4 = xcorr(G1);
+% L4 = length(R4);
+% figure;
+% plot((1:L4).*dt,R4,'r','linewidth',2);
+% title([num2str(N) '阶GolayCode自相关及其自相关之和']);
+% xlabel('Time/s');
+% ylabel('幅度');
